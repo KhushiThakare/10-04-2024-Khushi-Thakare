@@ -1,0 +1,112 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+}
+
+.buttons {
+  margin-bottom: 20px;
+}
+.buttons button {
+  margin: 5px;
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid orchid;
+  font-size: 20px;
+
+}
+button:hover{
+  color: white;
+  background-color: orchid;
+}
+.main-content #searchInput{
+  border-radius: 10px;
+  border: 1px solid orchid;
+  font-size: 20px;
+  margin: 5px;
+  padding: 8px 12px;
+}
+
+
+.clothing-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+  
+}
+
+
+.clothing-item {
+  width: 200px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.clothing-item img {
+  max-width: 100%;
+}
+
+.cart-items {
+  margin-top: 20px;
+}
+
+.cart-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item img {
+  max-width: 50px;
+  margin-right: 10px;
+}
+
+.add-to-cart{
+  padding: 8px 12px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid orchid;
+  font-size: 20px;
+
+
+}
+/* Add your CSS styles here */
+.clothing-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clothing-item {
+  width: calc(33.33% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.cart-container {
+  display: none;
+}
+
+.cart-items {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
+
+.cart-item {
+  margin-bottom: 10px;
+}
+
+.cart-total {
+  font-weight: bold;
+}
+
+.show {
+  display: block;
+}
